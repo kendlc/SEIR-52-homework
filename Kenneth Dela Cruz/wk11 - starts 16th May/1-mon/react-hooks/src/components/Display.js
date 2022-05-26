@@ -4,7 +4,7 @@ const Display = (props) => {
     console.log(props.info)
     return (
         <div>
-            <img width={300} src={props.info} />
+            <img style={{filter: 'brightness(100%)'}} width={300} src={props.info} />
         </div>
     );
 };

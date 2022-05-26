@@ -4,6 +4,7 @@ import bootstrap from "bootstrap";
 const Search = (props) => {
 
     const handleInput = (event) => {
+        event.preventDefault();
         props.querySearch(event.target.value);
     };
 
